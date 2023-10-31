@@ -5,24 +5,18 @@ Credit to the [Data Science Working Group](http://datascience.codeforsanfrancisc
 Begin reading `instructions.md` to get started.
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to practice the methodologies apparent in object oriented programming. Particularly the method of polymorphism with building various functions, methods, and lists under a class to perform stock data statistical analysis. Object oriented programming proves it's advantage by associating data and behavior together in an object for viewers to understand how a line of code runs.  
 
 ### Methods Used
 * Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
+* Object Oriented Programming
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+* Utilizing statistics package to compute the mean, median, and standard deviation of stock data
+* Before computing statistical data, the stock data file must be cleaned to ensure that there are no strings when computing
+* Used try-except code block with .strip() function and float() function to remove any whitespaces as well as convert all string values into numerical values for computing 
+* Challenges: Understanding how to build a class without given documentation
