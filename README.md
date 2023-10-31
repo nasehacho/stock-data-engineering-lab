@@ -20,4 +20,4 @@ The purpose of this project is to practice the methodologies apparent in object 
 * Before computing statistical data, the stock data file must be cleaned to ensure that there are no strings when computing
 * Used try-except code block with .strip() function and float() function to remove any whitespaces as well as convert all string values into numerical values for computing 
 * Challenges: Understanding how to build a class without given documentation
-* Documentation: https://docs.python.org/3/tutorial/errors.html,https://docs.python.org/3/library/statistics.html
+* Documentation: https://docs.python.org/3/tutorial/errors.html , https://docs.python.org/3/library/statistics.html
