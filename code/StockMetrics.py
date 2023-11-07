@@ -15,21 +15,32 @@ class StockMetrics(StockData):
 
     def average01(self):
         
+        # Empty list where calculated averages will be stored 
         averages = []
+        # Inital loop that acts on rows of data in self.data 
         for row in self.data:
+            # Removes unwanted data (Date) in new list to perform statistical functions
             new_stock_prices=row[1:]
+            # List where cleaned data will be stored 
             y = []
+            # Nested loop that acts on elements in new_stock_prices
             for x in new_stock_prices:
+                # Loop that converts all values in the list to floating point numbers, strips any blank space for statistical evaluation, and adds the cleaned data to the y list
                 try:
                     y.append(float(x.strip()))
             
                 except ValueError:
                     continue
+            # Average statistic function from statistics module imported initially. 
             average = stats.mean(y)
+            # Returns rounded averages to the third decimal place
             rounded_average = round(average,3)
+            # Adds rounded average values the averages list 
             averages.append(rounded_average)
+        # Returns rounded averages from averages list 
         return averages
-        
+
+    #Methods from def average01(self): repeated for def median02(self):
     def median02(self):
       
         medians = []
@@ -47,6 +58,7 @@ class StockMetrics(StockData):
                 medians.append(median)
         return medians
 
+    #Methods from def average01(self): repeated for def stddev03(self):
     def stddev03(self):
         
         stddev = []
