@@ -8,7 +8,7 @@ Begin reading `instructions.md` to get started.
 The purpose of this project is to practice the methodologies apparent in object oriented programming. Particularly the method of polymorphism with building various functions, methods, and lists under a class to perform stock data statistical analysis. Object oriented programming proves it's advantage by associating data and behavior together in an object for viewers to understand how a line of code runs.  
 
 ### Methods Used
-* Inferential Statistics
+* Statistics
 * Object Oriented Programming
 
 ### Technologies
@@ -20,3 +20,4 @@ The purpose of this project is to practice the methodologies apparent in object 
 * Before computing statistical data, the stock data file must be cleaned to ensure that there are no strings when computing
 * Used try-except code block with .strip() function and float() function to remove any whitespaces as well as convert all string values into numerical values for computing 
 * Challenges: Understanding how to build a class without given documentation
+* Documentation: https://docs.python.org/3/tutorial/errors.html , https://docs.python.org/3/library/statistics.html
